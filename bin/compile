@@ -9,9 +9,9 @@ echo -e "${YELLOW}WARNING: This buildpack is no longer maintained."
 echo -e
 echo -e "The buildpack forked from https://github.com/ddollar/heroku-buildpack-multi has to be replaced"
 echo -e
-echo -e "This buildpack will cease to function at the stroke of midnight on January 1, 2018.${RESET}"
+echo -e "This buildpack will cease to function at the stroke of midnight on January 1, 2019.${RESET}"
 
-[ $(date +%Y%m%d%H%M%S) -gt "20180101000000" ] && exit 1
+[ $(date +%Y%m%d%H%M%S) -gt "20190101000000" ] && exit 1
 
 function indent() {
   c='s/^/       /'
